@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>title</title>
+        <meta name="description" content="text">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css
+        ">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <header>
+
+            <!--     header     -->
+
+            <div class="header">
+                <h1><a href=""><img src="images/site-title.png" alt=""></a></h1>
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Contents</a></li>
+                    </ul>
+                </nav>
+
+                <!--     barger     -->
+
+                <div class="barger-btn" id="btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+            <picture>
+                <source src="images/fv.png" media="min-width: 700px">
+                <img src="images/FV1.png" alt="" class="top-img">
+            </picture>
+            
+            <div id="slide-menu">
+                <ul>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>News</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </header>
+        <main>
+
+            <!--     about     -->
+
+            <section class="wrapper" id="about">
+                <h2 class="sec-ttl">About</h2>
+                <div class="content">
+                    <h3>ミニマルで<br>
+                    洗練されたデザインを。</h3>
+                    <p>近年、ミニマルなデザインが流行しています。そこで弊社では、
+                    クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを
+                    実現させることで解決のサポートを致します。
+                    もちろんすべてのサービスにおいてミニマルなデザインが課題解決になるわけではないので、
+                    課題や今後のサービスの展開等しっかりとヒアリングを行った上でご提案させて頂きます。</p>
+                </div>
+            </section>
+
+            <!--     service     -->
+
+            <section class="wrapper" id="service">
+                <h2 class="sec-ttl">Service</h2>
+                <div class="container">
+                    <div class="content service-content">
+                        <h3>リリース時のサポートで、<br>
+                            サービスのブランディングを
+                        </h3>
+                        <p>弊社では、リリース後もサポートさせて頂きます。
+                            プレリリース用のサイトや動画制作を通して、
+                            サービスのブランディングを行わせて頂きます。
+                        </p>
+                    </div>
+                    <img src="images/service-image１.png" alt="">
+                </div>
+
+                <div class="container2">
+                    <div class="content service-content">
+                        <h3>リリース後のサポートで<br>
+                            効果を最大化させる
+                        </h3>
+                        <p>弊社では、リリース後もサポートさせて頂きます。
+                            サービスはリリース後に様々な課題にぶつかります。
+                            そこでクライアント様と一緒に改善を行うことで、
+                            デザインの効果を最大化させます。
+                        </p>
+                    </div>
+                    <img src="images/service-image.png" alt="">
+                </div>
+            </section>
+
+            <!--     News     -->
+            
+            <section class="wrapper" id="news">
+                <h2 class="sec-ttl">News</h2>
+                <div class="news-sec">
+                    <div class="news-contents">
+                        <img src="images/card-image1.png" alt="">
+                        <p>新規サイトを公開しました。今回のサイトは白と黒を基調にした
+                            ミニマルなデザインになっています。
+                        </p>
+                    </div>
+                    <div class="news-contents">
+                        <img src="images/card-image2.png" alt="">
+                        <p>新規サイトを公開しました。今回のサイトは白と黒を基調にした
+                            ミニマルなデザインになっています。
+                        </p>
+                    </div>
+                    <div class="news-contents">
+                        <img src="images/card-image3.png" alt="">
+                        <p>新規サイトを公開しました。今回のサイトは白と黒を基調にした
+                            ミニマルなデザインになっています。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--     contact     -->
+
+            <section id="contact">
+                <h3>お問い合わせ</h3>
+                <form action="">
+                    <label for="name">担当者名</label>
+                    <input type="text" id="name">
+
+                    <label for="phone-num">電話番号</label>
+                    <input type="text" id="phone-num">
+
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email">
+
+                    <label for="message">お問い合わせ内容</label>
+                    <textarea name="" id="message"></textarea>
+
+                    <input type="submit" value="送信">
+                </form>
+            </section>
+        </main>
+
+        <!--     footer     -->
+
+        <footer>
+            <p>&copy;creat.design all rights reserved</p>
+        </footer>
+    </body>
+
+</html>
